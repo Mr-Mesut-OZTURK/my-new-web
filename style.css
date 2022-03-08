@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Audiowide";
+}
+
+#my_nav {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    border-bottom: 5px solid red;
+    min-height: 10vh;
+}
+
+#my_nav h2 span {
+    color: red;
+}
+
+#my_nav menu a {
+    color: #fff;
+    text-decoration: none;
+    /* border: 1px solid rgb(61, 133, 2);
+    background-color: rgb(61, 133, 2); */
+    border-radius: 3px;
+    /* margin-left: 10px; */
+    padding: 5px 12px;
+    text-transform: uppercase;
+}
+
+#my__main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: 90vh;
+    background-color: rgb(0, 0, 0);
+    background-image: url('banner.jpg');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+#my__main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    min-height: 90vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 0px 50px;
+    text-align: center;
+    color: #fff;
+}
